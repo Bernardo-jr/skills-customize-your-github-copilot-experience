@@ -72,6 +72,25 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "file-io-automation",
+      "title": "File I/O and Automation with Python",
+      "description": "Learn how to read and write files and automate simple Python workflows with CSV data.",
+      "path": "assignments/file-io-automation",
+      "dueDate": "2026-06-19",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        },
+        {
+          "name": "Sample Sales Data",
+          "file": "sales-data.csv",
+          "type": "csv"
+        }
+      ]
     }
   ]
 }
