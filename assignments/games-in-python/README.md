@@ -1,19 +1,47 @@
 
-# 🎮 Hangman Game Challenge
+# 📘 Assignment: Hangman Game
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 🎯 Objective
 
-## � What You'll Build
+Build a Hangman-style word guessing game with Python. Practice string handling, loops, conditionals, and user input while giving players a fun interactive experience.
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+## 📝 Tasks
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 🛠️ Game Setup
 
-## ✅ Must Have's
+#### Description
+Create a word list with at least 5 different words and choose one word randomly at the start of each game.
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+#### Requirements
+Completed program should:
+
+- Define a list of words to choose from.
+- Select one word randomly using `random.choice()`.
+- Keep the chosen word hidden from the player.
+
+### 🛠️ Guessing Loop
+
+#### Description
+Implement the main game loop that asks the player for letter guesses, updates the displayed progress, and tracks incorrect guesses.
+
+#### Requirements
+Completed program should:
+
+- Prompt the player to guess a single letter.
+- Reveal correctly guessed letters in the word display (e.g. `h _ n g m a n`).
+- Track and display the letters that have already been guessed.
+- Deduct an attempt for each wrong guess.
+- Prevent repeated guesses from counting as extra attempts.
+
+### 🛠️ Win/Lose Conditions
+
+#### Description
+Finish the game with clear success and failure messages once the word is guessed or attempts run out.
+
+#### Requirements
+Completed program should:
+
+- End when the player guesses all letters correctly.
+- End when the player uses all allowed incorrect guesses.
+- Display a win message with the full word if the player succeeds.
+- Display a lose message and reveal the correct word if the player fails.
