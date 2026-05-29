@@ -58,6 +58,20 @@
           "type": "csv"
         }
       ]
+    },
+    {
+      "id": "rest-apis-fastapi",
+      "title": "Building REST APIs with FastAPI",
+      "description": "Learn to design and implement RESTful APIs using FastAPI with Pydantic models, validation, and HTTP methods.",
+      "path": "assignments/rest-apis-fastapi",
+      "dueDate": "2026-06-05",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
